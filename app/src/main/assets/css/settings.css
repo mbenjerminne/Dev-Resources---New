@@ -1,0 +1,95 @@
+*{
+    font-family: Roboto,calibri;
+}
+
+body {
+    text-align: center;
+}
+
+
+#theme  {
+    background: #073042;
+    border: none;
+    font-size: 1.2em;
+    border-radius: 4px;
+    color: white;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#container {
+    border-radius: 4px;
+    margin: 48px 8px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    overflow: hidden;
+    padding-bottom: 48px;
+}
+
+#controls {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#controls p:last-of-type{
+    background: #073042;
+    color: #ffffff;
+}
+
+#controls p {
+    width:50%;
+    font-size: 1.4em;
+    margin: 0;
+    padding: 8px 0px;
+    text-transform:uppercase;
+    color: #073042;
+}
+
+.prof {
+    display: flex;
+}
+
+.prof img {
+    width:128px;
+    height: 128px;
+    border-radius: 50%;
+    margin: 48px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.3em;
+    background: #008b8b;
+    border-radius: 8px;
+    width: 80%;
+    margin: 16px auto;
+    padding: 8px 0px;
+    color: #ffffff;
+}
+
+.link p {
+    margin: 0;
+}
+
+.link img {
+    width:30px;
+}
+
+#terms {
+    font-size: 1.4em;
+    margin:16px  32px;
+    text-align: left;
+    color: #073042;
+    display: none;
+}
+
+#dev {
+    display: block;
+}

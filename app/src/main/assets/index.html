@@ -1,0 +1,194 @@
+<!--
+*Dev Resources | Code Influencer
+*Mark Benjamin
+*mbenjerminne@gmail.com
+*http://codeinfluencer.com
+*copyright 2019
+
+
+*index.html
+*This is the main html file
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Dev Resources</title>
+    <style>
+    
+    #category {
+        display: none;
+    }
+    
+    </style>
+</head>
+<body>
+
+    <!--Start tutorials-->
+    <div id="tutorials">
+        <div id="un">
+            <p>Hello there,<br/>Welcome to Dev Resources. Let me give you a one time quick tour</p> 
+            <button id="btnun">Next</button>
+        </div>
+        <div id="deux">
+            <p>Use these floating action bars on the left to navigate categories</p>
+            <button id="btndeux">Next</button>
+        </div>
+        <div id="trois">
+            <p>The last FAB below is to acess settings. You can change to dark theme form here </p>
+            <button id="btntrois">Next</button>
+        </div>
+        <div id="quatre">
+            <p>Click these cards on the right to visit the elements </p>
+            <button id="btnquatre">Got it</button>
+        </div>
+        
+    </div>
+    <!--End tutorials-->
+
+    <!--Neutralize the situation with category.html-->
+        <button id="back">
+        <img src="img/icons/icons8_left_24px.png" alt="">
+    </button>
+    <div id="category">
+        <div id="upper2">
+            <h1>Tutorials</h1>
+        </div>
+        <div class="lower2" id="lower2">
+            
+            <div class="card">
+                <div class="img"></div>
+                <h1>HTML Crash Course | YouTube</h1>
+                <a href="#">Visit</a>
+            </div>
+            
+        </div>
+    </div> 
+    <!--End of neutralization the situation with category.html-->
+
+
+    <div id="upper">
+
+        <div class="header">
+            <img id="logoimg" src="img/logo.png" alt="img">
+            <div class="writings">
+                <h2>Code Influencer</h2>
+                <p>Learn . Innovate . Share . Mentor</p>
+            </div>
+        </div>
+        
+        <div class="welcome">
+            <h1>Welcome to<span> Dev Resources. </span></h1>
+            <p>These is the best app that gives you the resources to learn to code or advance your coding skills in 
+                <script>
+                    let myDate = new Date();
+                    document.write(myDate.getFullYear())
+                </script>.
+                <br/>
+                <br/>
+                <span>Click anywhere to continue</span>
+            </p>
+        </div>
+
+    </div>
+
+    <div id="lower">
+        <div id="left">
+            <div onclick="clicked('web')" class="left-item" id="web-left">
+                <img src="img/icons/icons8_web_24px_2.png" alt="" srcset="">
+            </div>
+            <div onclick="clicked('data')" class="left-item" id="data-left">
+                <img src="img/icons/icons8_data_configuration_24px_1.png" alt="" srcset="">
+            </div>
+            <div onclick="clicked('ml')" class="left-item" id="ml-left">
+                <img src="img/icons/icons8_electronics_24px_1.png" alt="" srcset="">
+            </div>
+            <div onclick="clicked('pl')" class="left-item" id="pl-left">
+                <img src="img/icons/icons8_programming_24px_1.png" alt="" srcset="">
+            </div>
+            <div onclick="clicked('android')" class="left-item" id="android-left">
+                <img src="img/icons/icons8_android_os_24px_1.png" alt="" srcset="">
+            </div>
+            <div onclick="clicked('bonus')" class="left-item" id="bonus-left">
+                <img src="img/icons/icons8_cloud_24px.png" alt="" srcset="">
+            </div>
+            <div onclick="settings()" class="left-item" id="bonus-left">
+                <img src="img/icons/icons8_settings_24px.png" alt="" srcset="">
+            </div>
+        </div>
+        <div id="right">
+            <div id="label">
+                <h1>All</h1>
+            </div>
+        </div>
+    </div>
+
+    <button onclick="debug()" id="debug">
+        DEBUG
+    </button>
+
+    
+   
+    
+<script>
+
+
+    function debug(){
+        localStorage.clear();
+    }
+
+    setInterval(function(){
+        //window.location.reload();
+    },1000);
+
+
+    document.getElementById("logoimg").style.maxHeight = window.innerHeight*0.08+"px";
+
+    let splash = document.getElementById("upper");
+    splash.style.width = screen.width+"px";
+    splash.style.height = screen.height+"px";
+    splash.style.zIndex = "4";
+    splash.style.display = "none";
+    
+
+    
+
+    
+if(localStorage.getItem("influencerSplashed") == null){
+    localStorage.setItem("influencerSplashed","false")
+}
+
+if(localStorage.influencerSplashed == "false"){
+    splash.style.display = "block";
+    tutor();   
+}
+
+let label = document.getElementById("label");
+
+if(localStorage.devtheme == "#232323"){
+    label.style.backgroundColor = "#232323";
+    label.style.color = "#008b8b";
+}
+
+function tutor() {
+    splash.addEventListener("click",function(){
+        splash.style.display = "none";
+        localStorage.setItem("influencerSplashed","true");
+    })
+}
+
+    
+    
+
+
+</script>
+<script src="js/database.js"></script>
+<script src="js/main.js"></script>
+<script src="js/tutorial.js"></script>
+</body>
+</html>

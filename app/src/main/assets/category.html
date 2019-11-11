@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tutorials</title>
+</head>
+<body>
+
+    <div id="category">
+        <div id="upper2">
+            <h1>Tutorials</h1>
+        </div>
+        <div class="lower2" id="lower2">
+            
+            <div class="card">
+                <div class="img"></div>
+                <h1>HTML Crash Course | YouTube</h1>
+                <a href="#">Visit</a>
+            </div>
+            
+        </div>
+    </div> 
+
+    <!--Neutralize the situation-->
+    <div id="label">
+        <h1></h1>
+    </div>
+    <script>
+        let category = document.getElementById("lower2");
+        category.innerHTML = localStorage.carry;
+        document.body.style.backgroundColor = localStorage.devtheme;
+
+        let myLinks = document.getElementsByTagName("a");
+        for(var i=0;i<myLinks.length;i++){
+            myLinks[i].addEventListener("click",function(){
+                if(navigator.onLine){
+                    showAndroidToast('please wait');
+                }else {
+                    this.href = ""
+                    showAndroidToast("Please check your network connection and try again");
+                }
+                console.log(navigator.onLine)
+            })
+        }
+
+        function showAndroidToast(toast) {
+            Android.showToast(toast);
+        }
+
+        
+    </script>
+</body>
+</html>

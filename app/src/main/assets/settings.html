@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/settings.css">
+    <title>Settings</title>
+</head>
+<body>
+    <div id="container">
+        <div id="controls">
+            <p>Dev</p>
+            <p>Terms</p>
+        </div>
+        <div id="dev">
+            <div class="prof">
+                <img src="img/alternative.png" alt="">
+            </div>
+            
+            <div onclick="href('https://play.google.com/store/apps/developer?id=Mark+Benjamin')" class="link">
+                <img src="img/icons/icons8_playstore_30px.png" alt="">
+                <p>&ThickSpace;Playstore</p>
+            </div>
+            <div onclick="showAndroidToast('codeinfluencer@gmail.com');" class="link">
+                <img src="img/icons/icons8_gmail_30px.png" alt="">
+                <p>&ThickSpace;Email &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;</p>
+            </div>
+            <div onclick="href('https://github.com/mbenjerminne')" class="link">
+                <img src="img/icons/icons8_github_30px.png" alt="">
+                <p>&ThickSpace;Github &ThickSpace;&ThickSpace;</p>
+            </div>
+        </div>
+        <div id="terms">
+                By downloading, installing or using "Dev Resources"application you agree to be bound by these terms. If you disagree with any part of these terms then you may not use this application and uninstall it.
+
+                <br/>
+                1. Dev Resources may contain links to other third party websites, apps or services. We (the developers) shall not be responsible or liable, directly or indirectly for any damage or loss caused by or alleged to be caused by or in connection with use of or reliance on any such content and information.
+                <br/>
+                2. The developers are not responsible directly or indirectly for any loss or damage caused by the information obtained from "Dev Resources" App.
+                <br/>
+                3. Users agree not to reverse engineer, decompile or attempt to gain acess to code or assets of "Dev Resources"app.
+                <br/>
+                4. Developer reserve the right, at our sole discretion, to modify or replace these terms at any time without notice.
+                
+                
+                If you have any questions about these terms, please contact developer.
+        </div>
+
+    </div>
+
+    <button id="theme">Toggle Dark / Light Theme</button>
+
+    <script>
+    setInterval(function(){
+        //window.location.reload();
+    },1000);
+
+    //functionality to toggle the dev and terms card
+    let controls = document.getElementById("controls").getElementsByTagName("p");
+    let dev = document.getElementById("dev");
+    let terms = document.getElementById("terms");
+    let container = document.getElementById("container");
+
+    //
+    let white = "";
+    //
+
+    controls[0].addEventListener("click",e => {
+        dev.style.display = "block";
+        terms.style.display = "none";
+        controls[0].style.backgroundColor = "#ffffff";
+        controls[0].style.color = "#073042";
+        controls[1].style.backgroundColor = "#073042";
+        controls[1].style.color = "#ffffff";
+    })
+
+    controls[1].addEventListener("click",e => {
+        dev.style.display = "none"
+        terms.style.display = "block"
+        controls[1].style.backgroundColor = "#ffffff";
+        controls[1].style.color = "#073042";
+        controls[0].style.backgroundColor = "#073042";
+        controls[0].style.color = "#ffffff";
+    })
+
+
+
+    //
+    function showAndroidToast(toast) {
+        Android.showToast(toast);
+    }
+
+    //
+    function href(location){
+        if(navigator.onLine){
+            showAndroidToast('please wait');
+            window.location = location;  
+        }else {
+            window.location = ".";
+            showAndroidToast("Please check your network connection and try again");
+        }
+        
+    }
+
+    //onload
+    //if dark theme
+    if(localStorage.devtheme == "#232323"){
+       controls[0].style.color = "#008b8b";
+       terms.style.color = "#008b8b";
+       controls[0].addEventListener("click",e => {
+                dev.style.display = "block";
+                terms.style.display = "none";
+                controls[0].style.backgroundColor = "#232323";
+                controls[0].style.color = "#008b8b";
+                controls[1].style.backgroundColor = "#073042";
+                controls[1].style.color = "#ffffff";
+            })
+
+            controls[1].addEventListener("click",e => {
+                dev.style.display = "none"
+                terms.style.display = "block"
+                controls[1].style.backgroundColor = "#232323";
+                controls[1].style.color = "#008b8b";
+                controls[0].style.backgroundColor = "#073042";
+                controls[0].style.color = "#ffffff";
+            })
+    }
+    
+    document.getElementById("theme").addEventListener("click",e => {
+        if(localStorage.devtheme == "#ffffff"){
+            localStorage.setItem("devtheme","#232323");
+
+            //container.style.boxShadow = "box-shadow: 0 10px 20px rgba(240,240,240,0.19), 0 6px 6px rgba(0,0,0,0.23)";
+
+        }else {
+            localStorage.setItem("devtheme","#ffffff");
+        }
+        window.location.reload()
+    })
+    document.body.style.backgroundColor = localStorage.devtheme;
+    
+    </script>
+    
+</body>
+</html>

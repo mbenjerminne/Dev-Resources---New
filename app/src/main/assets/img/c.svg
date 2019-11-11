@@ -1,0 +1,96 @@
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="117.88mm" width="230.27mm" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 815.90944 417.69254">
+ <g transform="translate(648.61 -860.62)">
+  <g transform="matrix(1.3757 0 0 1.3757 -341.01 512.94)">
+   <circle cx="72.14" cy="379.51" r="3.5714" style="fill:#fff"/>
+   <path style="stroke:#f88;stroke-width:.72692px;fill:none" d="m22.683 487.43c7.6986-.87594 15.018 3.9272 16.668 4.5457"/>
+   <circle cx="19.283" cy="489.51" r="2.1429" style="fill:#fff"/>
+   <text style="letter-spacing:0px;font-size:20px;word-spacing:0px;font-family:sans-serif;line-height:125%;fill:#ffffff" xml:space="preserve" y="527.32129" x="4.4975629"><tspan x="4.4975629" y="527.32129">C#</tspan></text>
+   <text style="font-size:27.5px;letter-spacing:0px;line-height:125%;word-spacing:0px;font-family:sans-serif;fill:#ffffff" xml:space="preserve" y="530.04773" x="-207.30576"><tspan x="-207.30576" y="530.04773">JS</tspan></text>
+   <circle cx="-192.15" cy="489.51" r="2.1429" style="fill:#fff"/>
+   <path style="stroke:#8da8e7;stroke-width:.72692px;fill:none" d="m346.94 490.97c16.151 1.2517 20.186 10.729 22.223 16.162"/>
+   <path d="m20.402 489.95c-2.2403-15.261 9.4697-26.266 13.929-39.643 15.927-47.781 7.8398-45.495 36.429-70" style="stroke:#ff8787;stroke-width:.72692px;fill:none"/>
+   <path d="m125.04 489.24c-2.36-25.25-18.55-47.76-24.64-73.22-5.656-23.66-4.357-28.57-29.82-35.71" style="stroke:#b5ec8a;stroke-width:.72692px;fill:none"/>
+   <path d="m70.938 380.49c-40.657.76726-48.136 50.728-70.893 78.036-11.035 13.242-71.735 29.875-85.714 31.429" style="stroke:#4fc7d1;stroke-width:.72692px;fill:none"/>
+   <path d="m-192.1 489.95c16.477-9.6247 34.099-18.754 52.143-25 34.418-11.914 72.613-13.309 106.43-27.143 34.932-14.29 75.083-57.857 105-57.857" style="stroke:#ffdc7b;stroke-width:.72692px;fill:none"/>
+   <path style="stroke:#b5ec8a;stroke-width:.72692px;fill:none" d="m123.66 488.95c12.184-2.5061 21.61-3.3912 32.325-1.0102"/>
+   <path d="m232.19 489.24c-47.916-36.863-86.883-74.652-134.04-99.772-7.3592-3.9198-19.846-5.8063-27.385-9.157" style="stroke:#cfaedd;stroke-width:.72692px;fill:none"/>
+   <path style="stroke:#cfaedd;stroke-width:.72692px;fill:none" d="m232.75 488.95c11.857.97556 13.254 5.0508 26.264 5.0508"/>
+   <path d="m70.759 380.49c24.742-4.0902 46.688 5.3918 67.857 14.464 21.911 9.3905 55.552 1.0455 76.429 13.571 18.06 10.836 36.773 37.709 55 45 15.642 6.2567 36.758 8.6024 50.714 18.571 10.057 7.1834 8.1143 18.203 17.857 19.286" style="stroke:#8da8e7;stroke-width:.72692px;fill:none"/>
+   <text style="font-size:70px;letter-spacing:0px;line-height:125%;word-spacing:0px;font-family:sans-serif;fill:#fff4f4" y="345.49759" x="47.103184" xml:space="preserve"><tspan y="345.49759" x="47.103184">C</tspan></text>
+   <path style="stroke:#ffdc7b;stroke-width:.72692px;fill:none" d="m-197.57 486.93c-12.739-1.009-8.9524 6.0609-22.223 6.0609"/>
+   <circle r="2.1429" style="fill:#fff" cx="125" cy="489.51"/>
+   <text style="letter-spacing:0px;font-size:16.41px;word-spacing:0px;font-family:sans-serif;line-height:125%;fill:#ffffff" xml:space="preserve" transform="scale(.91631 1.0913)" y="481.06454" x="105.71601"><tspan x="105.71601" y="481.06454">Node.js</tspan></text>
+   <circle cx="230.71" cy="489.51" r="2.1429" style="fill:#fff"/>
+   <text style="font-size:20px;letter-spacing:0px;line-height:125%;word-spacing:0px;font-family:sans-serif;fill:#ffffff" xml:space="preserve" y="527.32129" x="207.8158"><tspan x="207.8158" y="527.32129">C++</tspan></text>
+   <circle cx="336.43" cy="489.51" r="2.1429" style="fill:#fff"/>
+   <text style="letter-spacing:0px;font-size:20px;word-spacing:0px;font-family:sans-serif;line-height:125%;fill:#ffffff" xml:space="preserve" y="527.32129" x="316.16183"><tspan x="316.16183" y="527.32129">PHP</tspan></text>
+   <path d="m22.683 487.43c7.6986-.87594 15.018 3.9272 16.668 4.5457" style="stroke:#f88;stroke-width:.72692px;fill:none"/>
+   <g transform="translate(-264.24 232.59)">
+    <g transform="translate(-.013696)">
+     <path style="fill:#f88" d="m314.97 305.62-31.449 18.157-31.449-18.157v-36.314l31.449-18.157 31.449 18.157z"/>
+     <path d="m284 251.36 31 18v36l-31 18" style="fill:#ff6c6c;fill-rule:evenodd"/>
+    </g>
+    <circle cx="283.52" cy="256.92" r="2.1429" style="fill:#fff"/>
+    <text style="letter-spacing:0px;font-size:20px;word-spacing:0px;font-family:sans-serif;line-height:125%;fill:#ffffff" xml:space="preserve" y="294.73398" x="268.73856"><tspan x="268.73856" y="294.73398">C#</tspan></text>
+   </g>
+   <g transform="translate(-264.24 232.59)">
+    <path style="fill:#ffdc7b" d="m103.54 305.62-31.449 18.157-31.449-18.157v-36.314l31.449-18.157 31.449 18.157z"/>
+    <path d="m72 251.36 31 18v36l-31 18" style="fill:#ffe397;fill-rule:evenodd"/>
+   </g>
+   <text style="font-size:25.761px;letter-spacing:0px;line-height:125%;word-spacing:0px;font-family:sans-serif;fill:#ffffff" xml:space="preserve" y="529.39813" x="-215.84421"><tspan x="-215.84421" y="529.39813">Perl</tspan></text>
+   <circle cx="-192.15" cy="489.51" r="2.1429" style="fill:#fff"/>
+   <path d="m346.94 490.97c16.151 1.2517 20.186 10.729 22.223 16.162" style="stroke:#8da8e7;stroke-width:.72692px;fill:none"/>
+   <path style="stroke:#ff8787;stroke-width:.72692px;fill:none" d="m20.402 489.95c-2.2403-15.261 9.4697-26.266 13.929-39.643 15.927-47.781 7.8398-45.495 36.429-70"/>
+   <path style="stroke:#b5ec8a;stroke-width:.72692px;fill:none" d="m125.04 489.24c-2.36-25.25-18.55-47.76-24.64-73.22-5.656-23.66-4.357-28.57-29.82-35.71"/>
+   <path style="stroke:#4fc7d1;stroke-width:.72692px;fill:none" d="m70.938 380.49c-40.657.76726-48.136 50.728-70.893 78.036-11.035 13.242-71.735 29.875-85.714 31.429"/>
+   <path style="stroke:#ffdc7b;stroke-width:.72692px;fill:none" d="m-192.1 489.95c16.477-9.6247 34.099-18.754 52.143-25 34.418-11.914 72.613-13.309 106.43-27.143 34.932-14.29 75.083-57.857 105-57.857"/>
+   <path d="m123.66 488.95c12.184-2.5061 21.61-3.3912 32.325-1.0102" style="stroke:#b5ec8a;stroke-width:.72692px;fill:none"/>
+   <path style="stroke:#cfaedd;stroke-width:.72692px;fill:none" d="m232.19 489.24c-47.916-36.863-86.883-74.652-134.04-99.772-7.3592-3.9198-19.846-5.8063-27.385-9.157"/>
+   <path d="m232.75 488.95c11.857.97556 13.254 5.0508 26.264 5.0508" style="stroke:#cfaedd;stroke-width:.72692px;fill:none"/>
+   <path style="stroke:#8da8e7;stroke-width:.72692px;fill:none" d="m70.759 380.49c24.742-4.0902 46.688 5.3918 67.857 14.464 21.911 9.3905 55.552 1.0455 76.429 13.571 18.06 10.836 36.773 37.709 55 45 15.642 6.2567 36.758 8.6024 50.714 18.571 10.057 7.1834 8.1143 18.203 17.857 19.286"/>
+   <g transform="translate(-264.24 232.59)">
+    <g transform="translate(0 -.10178)">
+     <path style="fill:#6c6c6c" d="m394.43 120.98-58.048 33.514-58.048-33.514v-67.028l58.048-33.514 58.048 33.514z"/>
+     <path d="m335.94 20.251 58.274 33.657v67.315l-58.274 33.657" style="fill:#575757;fill-rule:evenodd"/>
+    </g>
+    <circle cx="336.38" cy="146.92" r="3.5714" style="fill:#fff"/>
+    <text style="font-size:70px;letter-spacing:0px;line-height:125%;word-spacing:0px;font-family:sans-serif;fill:#fff4f4" y="112.91025" x="311.34418" xml:space="preserve"><tspan y="112.91025" x="311.34418">C</tspan></text>
+   </g>
+   <path d="m-197.57 486.93c-12.739-1.009-8.9524 6.0609-22.223 6.0609" style="stroke:#ffdc7b;stroke-width:.72692px;fill:none"/>
+   <path style="stroke:#4fc7d1;stroke-width:.72692px;fill:none" d="m-92.01 487.43c-4.2147-3.088-8.2495-4.4522-13.637-5.0508"/>
+   <circle cx="-86.432" cy="489.51" r="2.1429" style="fill:#fff"/>
+   <text style="font-size:16.25px;letter-spacing:0px;line-height:125%;word-spacing:0px;font-family:sans-serif;fill:#ffffff" xml:space="preserve" y="524.58936" x="-114.74212"><tspan x="-114.74212" y="524.58936">python</tspan></text>
+   <path d="m-92.01 487.43c-4.2147-3.088-8.2495-4.4522-13.637-5.0508" style="stroke:#4fc7d1;stroke-width:.72692px;fill:none"/>
+   <g transform="translate(-264.24 232.59)">
+    <path style="fill:#4fc7d1" d="m209.26 305.62-31.449 18.157-31.449-18.157v-36.314l31.449-18.157 31.449 18.157z"/>
+    <path d="m178 251.36 31 18v36l-31 18" style="fill:#00acb9;fill-rule:evenodd"/>
+    <circle cx="177.81" cy="256.92" r="2.1429" style="fill:#fff"/>
+    <text style="font-size:16.25px;letter-spacing:0px;line-height:125%;word-spacing:0px;font-family:sans-serif;fill:#ffffff" xml:space="preserve" y="292.00204" x="149.49887"><tspan x="149.49887" y="292.00204">python</tspan></text>
+   </g>
+   <g transform="translate(-264.24 232.59)">
+    <g transform="translate(-.0000036797 .0000051875)">
+     <path style="fill:#b5ec8a" d="m421.57 305.62-31.449 18.157-31.449-18.157v-36.314l31.449-18.157 31.449 18.157z"/>
+     <path d="m390 251.46 31 18v36l-31 18" style="fill:#9fe06b;fill-rule:evenodd"/>
+    </g>
+    <circle r="2.1429" style="fill:#fff" cx="389.24" cy="256.92"/>
+    <text style="letter-spacing:0px;font-size:16.41px;word-spacing:0px;font-family:sans-serif;line-height:125%;fill:#ffffff" xml:space="preserve" transform="scale(.91631 1.0913)" y="267.94357" x="394.09262"><tspan x="394.09262" y="267.94357">Node.js</tspan></text>
+   </g>
+   <g transform="translate(-264.24 232.59)">
+    <g transform="translate(-.29942)">
+     <path style="fill:#cfaedd" d="m526.4 305.62-31.449 18.157-31.449-18.157v-36.314l31.449-18.157 31.449 18.157z"/>
+     <path d="m495.2 251.27 31.8 18.09v36l-31.804 18" style="fill:#c39ed3;fill-rule:evenodd"/>
+    </g>
+    <circle cx="494.95" cy="256.92" r="2.1429" style="fill:#fff"/>
+    <text style="font-size:20px;letter-spacing:0px;line-height:125%;word-spacing:0px;font-family:sans-serif;fill:#ffffff" xml:space="preserve" y="294.73398" x="472.05676"><tspan x="472.05676" y="294.73398">C++</tspan></text>
+   </g>
+   <g transform="translate(-264.24 232.59)">
+    <g transform="translate(-.44230)">
+     <path style="fill:#95b4fd" d="m632.12 305.62-31.449 18.157-31.449-18.157v-36.314l31.449-18.157 31.449 18.157z"/>
+     <path d="m600.62 251.23 32.38 18.13v36l-32.25 18.179" style="fill:#83a6fa;fill-rule:evenodd"/>
+    </g>
+    <circle cx="600.67" cy="256.92" r="2.1429" style="fill:#fff"/>
+    <text style="letter-spacing:0px;font-size:20px;word-spacing:0px;font-family:sans-serif;line-height:125%;fill:#ffffff" xml:space="preserve" y="294.73398" x="580.40283"><tspan x="580.40283" y="294.73398">PHP</tspan></text>
+   </g>
+  </g>
+ </g>
+</svg>
